@@ -43,7 +43,7 @@ python run_glue.py \
 Sparse Progressive Distillation
 ====================
 
-We use `run_glue.py` to run the **sparse progressive distillation**, --num_prune_epochs is the epochs for pruning, --num_train_epochs is the total number of epochs (pruning, progressive distillation, finetuning).
+We use `run_glue.py` to run the **sparse progressive distillation**. --num_prune_epochs is the epochs for pruning, --num_train_epochs is the total number of epochs (pruning, progressive distillation, finetuning).
 
 ```
 python run_glue.py \
