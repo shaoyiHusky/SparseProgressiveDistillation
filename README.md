@@ -69,9 +69,17 @@ python run_glue.py \
   --scheduler_type linear
 ```
 
-To Dos
+Citation
 ====================
 
-- Provide our teacher model for each task.
+If you find this repo is helpful, please cite
 
-- Provide best performed model checkpoint for each task.
+```
+@inproceedings{huang2022sparse,
+  title={Sparse Progressive Distillation: Resolving Overfitting under Pretrain-and-Finetune Paradigm},
+  author={Huang, Shaoyi and Xu, Dongkuan and Yen, Ian and Wang, Yijue and Chang, Sung-En and Li, Bingbing and Chen, Shiyang and Xie, Mimi and Rajasekaran, Sanguthevar and Liu, Hang and others},
+  booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={190--200},
+  year={2022}
+}
+```
