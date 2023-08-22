@@ -1,6 +1,12 @@
 Sparse Progressive Distillation: Resolving Overfitting under Pretrain-and-Finetune Paradigm
 ======== 
-This is the Pytorch implementation for sparse progressive distillation (SPD). For more details about the motivation, techniques and experimental results, refer to our paper [here](https://arxiv.org/pdf/2110.08190.pdf).
+This is the Pytorch implementation for sparse progressive distillation (SPD). For more details about the motivation, techniques and experimental results, refer to our paper [(https://arxiv.org/pdf/2110.08190.pdf)](https://arxiv.org/pdf/2110.08190.pdf).
+
+Experimental results on GLUE Benchmark
+============
+The model training and evaluation are performed with CUDA 11.1 on Quadro RTX6000 GPU and Intel(R) Xeon(R) Gold 6244 @ 3.60GHz CPU. The results may vary due to different GPU models, drivers, CUDA SDK versions.
+<img width="761" alt="image" src="https://github.com/shaoyiHusky/SparseProgressiveDistillation/assets/66193101/44a85974-1882-4ef6-94b4-3b2ce681d456">
+
 
 Running
 ============
