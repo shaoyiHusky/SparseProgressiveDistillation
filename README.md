@@ -1,6 +1,6 @@
 Sparse Progressive Distillation: Resolving Overfitting under Pretrain-and-Finetune Paradigm
 ======== 
-This is the Pytorch implementation for sparse progressive distillation (SPD). For more details about the motivation, techniques and experimental results, refer to our paper [(https://arxiv.org/pdf/2110.08190.pdf)](https://arxiv.org/pdf/2110.08190.pdf).
+This is the Pytorch implementation for sparse progressive distillation (SPD). For more details about the motivation, techniques and experimental results, refer to our **ACL 2022** paper [(https://arxiv.org/pdf/2110.08190.pdf)](https://arxiv.org/pdf/2110.08190.pdf).
 
 Experimental results on GLUE Benchmark
 ============
