@@ -2,7 +2,8 @@ Sparse Progressive Distillation: Resolving Overfitting under Pretrain-and-Finetu
 ======== 
 This is the Pytorch implementation for sparse progressive distillation (SPD). For more details about the motivation, techniques and experimental results, refer to our **ACL 2022** paper [(https://arxiv.org/pdf/2110.08190.pdf)](https://arxiv.org/pdf/2110.08190.pdf).
 
-Experimental results on GLUE Benchmark
+
+Experimental Results on GLUE Benchmark
 ============
 The model training and evaluation are performed with CUDA 11.1 on Quadro RTX6000 GPU and Intel(R) Xeon(R) Gold 6244 @ 3.60GHz CPU. The results may vary due to different GPU models, drivers, CUDA SDK versions.
 <img width="761" alt="image" src="https://github.com/shaoyiHusky/SparseProgressiveDistillation/assets/66193101/44a85974-1882-4ef6-94b4-3b2ce681d456">
@@ -20,7 +21,7 @@ Running
 
   The original GLUE dataset could be downloaded [here](https://gluebenchmark.com/tasks).
 
-BERT_base fine-tuning on GLUE 
+BERT_base Fine-tuning on GLUE 
 ====================
 
 We use finetuned BERT_base as the teacher. For each task of GLUE benchmark, we obtain the finetuned model using the original huggingface [transformers](https://github.com/huggingface/transformers) [code](https://github.com/huggingface/transformers/tree/master/examples/pytorch/text-classification) with the following script.
